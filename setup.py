@@ -7,6 +7,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "httpx>=0.24.0"
+        "requests"
     ],
     description='A Python wrapper for the Catbox.moe and Litterbox api with Async features',
     long_description=open('README.md').read(),
