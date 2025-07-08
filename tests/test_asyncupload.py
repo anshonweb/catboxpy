@@ -1,5 +1,4 @@
 import pytest
-import asyncio
 from catboxpy import AsyncCatboxClient
 
 @pytest.mark.asyncio

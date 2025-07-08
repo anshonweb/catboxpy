@@ -143,6 +143,20 @@ asyncio.run(delete_file())
 
 ---
 
+### **Litterbox Usage**
+```python
+
+from litterbox import LitterboxClient
+
+uploader = LitterboxClient()
+try:
+    url = uploader.upload_file("filepath", expire_time="1h")
+    print(f"Uploaded to: {url}")
+except Exception as e:
+    print(f"Upload failed: {e}")
+
+```
+
 ## Authentication
 
 For most operations, such as uploading or managing albums, you need a valid **userhash**. You can obtain the `userhash` by logging in to Catbox and accessing your user settings.

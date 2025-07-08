@@ -1,5 +1,4 @@
 import requests
-import os
 from .album import AlbumManager
 
 CATBOX_API = 'https://catbox.moe/user/api.php'
