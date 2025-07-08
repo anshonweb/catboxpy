@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='catboxpy',
-    version='0.1.1',
+    version='0.1.1.1',
     packages=find_packages(),
     install_requires=[
-        "httpx>=0.24.0"
+        "httpx>=0.24.0",
         "requests"
     ],
     description='A Python wrapper for the Catbox.moe and Litterbox api with Async features',

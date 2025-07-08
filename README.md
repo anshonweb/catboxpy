@@ -146,7 +146,7 @@ asyncio.run(delete_file())
 ### **Litterbox Usage**
 ```python
 
-from litterbox import LitterboxClient
+from catboxpy import LitterboxClient
 
 uploader = LitterboxClient()
 try:
