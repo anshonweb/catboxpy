@@ -2,3 +2,4 @@ build
 catboxpy.egg-info
 dist
 .venv
+catboxpy\__pycache__
